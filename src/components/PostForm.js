@@ -22,6 +22,7 @@ const PostForm = () => {
 					getPosts: [result.data.createPost, ...data.getPosts],
 				},
 			});
+
 			values.body = "";
 		},
 	});
