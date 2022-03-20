@@ -36,7 +36,7 @@ const PostForm = () => {
 				<h2>Create a post:</h2>
 				<Form.Field>
 					<Form.Input
-						placeholder='Comment Me'
+						placeholder='Write a comment...'
 						name='body'
 						onChange={onChange}
 						value={values.body}

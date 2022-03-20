@@ -38,7 +38,7 @@ function Register(props) {
 				<h1>Register</h1>
 				<Form.Input
 					label='Username'
-					placeholder='Username..'
+					placeholder='Username...'
 					name='username'
 					type='text'
 					value={values.username}
@@ -47,7 +47,7 @@ function Register(props) {
 				/>
 				<Form.Input
 					label='Email'
-					placeholder='Email..'
+					placeholder='Email...'
 					name='email'
 					type='email'
 					value={values.email}
@@ -56,7 +56,7 @@ function Register(props) {
 				/>
 				<Form.Input
 					label='Password'
-					placeholder='Password..'
+					placeholder='Password...'
 					name='password'
 					type='password'
 					value={values.password}
@@ -65,7 +65,7 @@ function Register(props) {
 				/>
 				<Form.Input
 					label='Confirm Password'
-					placeholder='Confirm Password..'
+					placeholder='Confirm Password...'
 					name='confirmPassword'
 					type='password'
 					value={values.confirmPassword}
