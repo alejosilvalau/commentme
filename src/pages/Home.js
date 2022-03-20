@@ -12,7 +12,7 @@ function Home() {
 	const { loading, data } = useQuery(FETCH_POSTS_QUERY);
 	let posts = <h1>Loading..</h1>;
 	if (!loading) {
-		console.log(data.getPosts);
+		// console.log(data.getPosts);
 		posts = data.getPosts.map((post) => (
 			<Grid.Column key={post.id} style={{ marginBottom: 20 }}>
 				<PostCard post={post} />

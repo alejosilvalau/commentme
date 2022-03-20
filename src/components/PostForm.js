@@ -43,7 +43,11 @@ const PostForm = () => {
 						value={values.body}
 						error={error ? true : false}
 					/>
-					<Button type='submit' color='teal'>
+					<Button
+						type='submit'
+						color='teal'
+						disabled={values.body.trim() === ""}
+					>
 						Submit
 					</Button>
 				</Form.Field>
